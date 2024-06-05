@@ -13,6 +13,9 @@ import javax.sql.DataSource;
 public class Banco {
 	
 
+//	@Resource(name="jdbc/sistema")
+//	private static DataSource ds;
+	
 	private static final String NAME_DATASOURCE = "SenacDS";
 	
 	
@@ -106,5 +109,4 @@ public class Banco {
 			System.out.println("Erro: " + e.getMessage());
 		}
 	}
-
 }
