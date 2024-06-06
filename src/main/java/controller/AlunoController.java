@@ -15,6 +15,7 @@ import jakarta.ws.rs.core.MediaType;
 import model.entity.Aluno;
 import service.AlunoService;
 
+@Path("/aluno")
 public class AlunoController {
 	
 	private AlunoService service = new AlunoService();

@@ -15,7 +15,7 @@ import jakarta.ws.rs.core.MediaType;
 import model.entity.Professor;
 import service.ProfessorService;
 
-
+@Path("/professor")
 public class ProfessorController {
 	
 	private ProfessorService service = new ProfessorService();
